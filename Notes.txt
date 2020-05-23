@@ -1,0 +1,33 @@
+// - Events: Notifications that are sent to notify the code that something
+//   happened on the webpage;
+// - Examples: clicking a button, resizing a window, scrolling down or pressing
+//   a key;
+
+// Event listener: A function that performs an action based on a certain event.
+// It waits for a specific event to happen.
+
+// Resource: https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+// Math.random(): A built-in Math method that returns a number between 0 and 1.
+// If we want a number between a certain range then we multiply the method with
+// a number above the maximum possible number in the range. For example, if we
+// want a random number between 0 and 5 then we multiply the method with 6.
+// Thus, Math.random() * 6 !!! And it will return us a number between 0 and 5.
+// Math.random() returns the numbers in decimal format but we want integer numbers.
+
+// So, there is another very handy JavaScript Math method which is called Math.floor()
+// and this method simply removes the decimal part of a number.
+// Math.floor(4.8) = 4. Now, we need to use this method on the Math.random() method
+// to get an integer number.
+
+// Math.floor(Math.random()*6) = 3. This provides us a random integer number between
+// 0 and 5. Now as we want a number between 1 and 6, we will just add 1 to this method
+// and it will give us a number between 1 and 6.
+
+// Math.floor(Math.random()*6) + 1 = 6;
+
+// var dice = Math.floor(Math.random()*6) + 1;
+
+// Now, every time we use the variable "dice" it will get assigned a number between
+// 1 and 6.
